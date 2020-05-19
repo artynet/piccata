@@ -1,0 +1,17 @@
+Source: piccata
+Maintainer: Arturo Rinaldi <arturo@smartme.io>
+Section: python
+Priority: optional
+Build-Depends: debhelper (>= 11~),
+               dh-python,
+               python3-all,
+               python3-setuptools
+Standards-Version: 4.2.1
+Vcs-Git: https://github.com/NordicSemiconductor/pc-nrfutil.git
+
+Package: python3-piccata
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}
+Description: Python bindings for the ble-driver library (Python 3)
+ .
+ This is the Python 3 version of the package.
